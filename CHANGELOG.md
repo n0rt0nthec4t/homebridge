@@ -2,6 +2,21 @@
 
 All notable changes to `homebridge` will be documented in this file. This project tries to adhere to [Semantic Versioning](http://semver.org/).
 
+## v2.4.1 (Pending Release)
+
+### Changes
+
+- fix: guard child bridge shutdown before bridgeService is assigned (#3999) (@SAY-5)
+- fix(matter): report a plugin's manufacturer and model on an external matter accessory
+
+### Homebridge Dependencies
+
+- `@homebridge/hap-nodejs` @ `v2.2.2`
+
+### Matter Dependencies
+
+- `@matter/main` @ `v0.17.9`
+
 ## v2.4.0 (2026-08-16)
 
 ### Changes
