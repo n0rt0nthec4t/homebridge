@@ -8,6 +8,7 @@ All notable changes to `homebridge` will be documented in this file. This projec
 
 - fix: guard child bridge shutdown before bridgeService is assigned (#3999) (@SAY-5)
 - fix(matter): report a plugin's manufacturer and model on an external matter accessory
+- fix(matter): keep a restored accessory's owner, so the cache stops losing it on alternate restarts
 
 ### Homebridge Dependencies
 
